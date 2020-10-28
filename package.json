@@ -9,7 +9,8 @@
     "turbolinks": "^5.2.0"
   },
   "scripts": {
-    "start": "rails s -b 0.0.0.0 -p 3000"
+    "start": "rails s -b 0.0.0.0 -p 3000",
+    "test": "bundle exec rake test"
   },
   "version": "0.1.0",
   "devDependencies": {
